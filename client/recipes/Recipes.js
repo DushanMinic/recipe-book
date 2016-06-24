@@ -6,6 +6,6 @@ Template.Recipes.onCreated(function () {
 
 Template.Recipes.helpers({
 	recipes: () => {
-		return Recipes.find({}, { sort: { createdAt: -1 } });
+		return Recipes.find({});
 	}
 });
